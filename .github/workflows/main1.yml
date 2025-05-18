@@ -47,7 +47,7 @@ jobs:
 
       # Install Snowflake CLI GitHub Action and point to config file
       - name: Install Snowflake CLI v2
-        uses: snowflakedb/setup-snowflake-cli@v0.2.0
+        uses: snowflakedb/setup-cli@v1
         with:
           version: latest
           default-config-file-path: "config.toml"
